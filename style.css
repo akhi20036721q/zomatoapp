@@ -1,0 +1,258 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #ff5a5f;
+    color: #fff;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.hero {
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 100px 30px;
+    text-align: center;
+}
+
+.hero-content h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.search-bar input {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+
+.search-bar button {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    background-color: #ff5a5f;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+
+.restaurants {
+    padding: 50px 30px;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+.restaurant-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.restaurant {
+    width: 200px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.restaurant img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.restaurant h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.restaurant p {
+    color: #666;
+}
+
+#restaurant-list img {
+    width: 30%;
+    transition: transform 0.4s ease, box-shadow 0.4s ease; 
+}
+
+#restaurant-list img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #ff5a5f;
+    color: #fff;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.hero {
+    background-color: #ff5a5f;
+    color: #fff;
+    padding: 100px 30px;
+    text-align: center;
+}
+
+.hero-content h2 {
+    font-size: 36px;
+}
+
+.search-bar input {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+
+.search-bar button {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    background-color: #fff;
+    color: #ff5a5f;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+}
+
+
+.restaurants {
+    padding: 50px 30px;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+.restaurant-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.restaurant {
+    width: 200px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    overflow: hidden; 
+}
+
+.restaurant h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.restaurant p {
+    color: #666;
+}
+
+
+
+.restaurant {
+    width: 200px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.restaurant:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); 
+}
+
+.restaurant img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    transition: transform 0.3s ease;
+}
+
+.restaurant:hover img {
+    transform: scale(1.1);
+}
+
+
+.restaurant h3, .restaurant p {
+    transition: color 0.3s ease;
+}
+
+.restaurant:hover h3 {
+    color: #ff5a5f; 
+}
+
+.restaurant:hover p {
+    color: #666;
+}
+
+.loginform{
+    text-align: center;
+    background-color: #ff5a5f;
+}
+
+
